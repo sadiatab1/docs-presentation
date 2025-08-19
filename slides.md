@@ -3,7 +3,7 @@ marp: true
 theme: my-product-theme
 paginate: true
 title: Product Documentation Presentation
-author: Sadia
+author: [Your Name]
 footer: '23f3004490@ds.study.iitm.ac.in'
 ---
 
@@ -49,15 +49,6 @@ The system relies on various data structures, such as a balanced binary search t
 Let's consider the height of such a tree, $h$, which is related to the number of nodes, $N$, by the equation:
 
 $$h = O(\log N)$$
-
----
-
-![bg](https://marp.app/assets/hero-background.jpg)
-
-# Visual Insight
-
-This slide demonstrates how a **background image** can be used for emphasis.  
-You can replace this URL with a local image (`./assets/bg.jpg`) if desired.
 
 ---
 
