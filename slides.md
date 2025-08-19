@@ -16,6 +16,10 @@ section {
 h1, h2, h3 {
   color: #0066cc;
 }
+section[data-background-image] {
+  background-size: cover;
+  background-position: center;
+}
 </style>
 
 # Introduction to Our Product
@@ -49,6 +53,19 @@ The system relies on various data structures, such as a balanced binary search t
 Let's consider the height of such a tree, $h$, which is related to the number of nodes, $N$, by the equation:
 
 $$h = O(\log N)$$
+
+---
+
+<!-- _backgroundImage: url('./assets/product-bg.jpg') -->
+
+# Visual Overview
+
+This slide uses a background image to highlight our product's modular architecture.
+
+<!-- Speaker notes:
+The image illustrates the product's core modules and data flow.
+Each component is independently testable and Dockerized.
+-->
 
 ---
 
