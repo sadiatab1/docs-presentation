@@ -56,8 +56,9 @@ $$h = O(\log N)$$
 
 ---
 
-<!-- _backgroundImage: url('./assets/product-bg.jpg') -->
+![bg](assets/product-bg.png)
 
+---
 # Visual Overview
 
 This slide uses a background image to highlight our product's modular architecture.
