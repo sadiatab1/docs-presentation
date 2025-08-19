@@ -52,6 +52,15 @@ $$h = O(\log N)$$
 
 ---
 
+![bg](https://marp.app/assets/hero-background.jpg)
+
+# Visual Insight
+
+This slide demonstrates how a **background image** can be used for emphasis.  
+You can replace this URL with a local image (`./assets/bg.jpg`) if desired.
+
+---
+
 # Contact
 
 For further assistance, please contact our support team or use the provided email address in the footer.
