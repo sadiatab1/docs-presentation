@@ -1,8 +1,6 @@
 ---
 marp: true
 ---
-
----
 marp: true
 theme: custom
 paginate: true
