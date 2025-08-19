@@ -1,101 +1,61 @@
 ---
 marp: true
-theme: custom
+theme: my-product-theme
 paginate: true
-style: |
-  section {
-    font-family: 'Segoe UI', sans-serif;
-    color: #333;
-  }
-  h1 {
-    color: #005f99;
-    font-size: 2.2em;
-  }
-  p {
-    font-size: 1.1em;
-  }
-backgroundColor: #fdfdfd
+title: Product Documentation Presentation
+author: Sadia
+footer: '23f3004490@ds.study.iitm.ac.in'
 ---
 
-# Product Documentation Overview  
-**Author:** Sadia  
-**Email:** 23f3004490@ds.study.iitm.ac.in
+<style>
+/* themes/my-product-theme.css */
+section {
+  background-image: url('https://marp.app/assets/marp.svg');
+  background-size: 20%;
+  background-position: 95% 5%;
+  background-repeat: no-repeat;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+h1, h2, h3 {
+  color: #0066cc;
+}
+</style>
 
----
+# Introduction to Our Product
 
-## 📦 Goals of This Presentation
-
-- Maintainable in version control  
-- Convertible to PDF, HTML, and slides  
-- Minimal, focused content  
-- Custom styling and themes  
-- Speaker notes and math support
+This presentation provides an overview of our product's key features and how to use them effectively.
 
 ---
 
-## 🧠 Algorithmic Complexity
+# Key Features
 
-$$
-T(n) = O(n \log n)
-$$
-
-This represents the time complexity of our core sorting algorithm.  
-It balances performance and scalability across datasets.
+- **Feature A**: A brief description.
+- **Feature B**: Another key feature.
+- **Feature C**: A third important feature.
 
 ---
 
-## 🖼️ Background Image Example
+# Algorithmic Complexity
 
-![bg](./assets/architecture.png)
+The complexity of our core algorithm can be expressed as:
 
-### System Architecture Overview
+$$O(n \log n)$$
 
-**Speaker Notes:**  
-This diagram shows the modular breakdown of our API and data pipeline.  
-Each component is Dockerized and independently testable.
+This represents an efficient and scalable solution for handling large datasets.
 
 ---
 
-## 🛠️ Common Issues & Fixes
+# Data Structures
 
-### Images Not Loading
-- Use relative paths (`./assets/image.png`)
-- Add `--allow-local-files` for PDF export
+The system relies on various data structures, such as a balanced binary search tree, which maintains an optimal search time.
 
-### Font Problems
-- Include web fonts in theme CSS
-- Test PDF export compatibility
+Let's consider the height of such a tree, $h$, which is related to the number of nodes, $N$, by the equation:
 
-### Build Errors
-- Check Node.js version
-- Run with `--verbose` for debugging
+$$h = O(\log N)$$
 
 ---
 
-## 🎯 Keyboard Shortcuts
+# Contact
 
-### VS Code Marp Preview
-- `F1` → "Marp: Toggle Preview"
-- `Ctrl+Shift+V` → Preview
-- `Ctrl+K V` → Side Preview
-
-### Presentation Mode
-- `F` → Fullscreen  
-- `P` → Presenter View  
-- `B` → Blackout
-
----
-
-## ✅ Final Notes
-
-- All assets optimized and version-controlled  
-- Custom theme applied  
-- Math rendering verified  
-- Speaker notes included  
-- Ready for export to PDF or HTML
-
----
-
-# Thank You!  
-📧 23f3004490@ds.study.iitm.ac.in  
-🧠 Built with Marp + Markdown  
+For further assistance, please contact our support team or use the provided email address in the footer.
