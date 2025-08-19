@@ -1,67 +1,99 @@
 ---
 marp: true
-theme: my-product-theme
+title: Product Documentation Overview
+author: Sadia
+email: 23f3004490@ds.study.iitm.ac.in
+theme: custom
 paginate: true
-title: Product Documentation Presentation
-author: [Sadia]
-footer: '23f3004490@ds.study.iitm.ac.in'
+# Custom theme embedded
+style: |
+  section {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #232323;
+  }
+  h1 {
+    color: #1a73e8;
+    font-size: 2.1em;
+    border-bottom: 2px solid #1a73e8;
+  }
+  .important {
+    color: #e53935;
+    font-weight: bold;
+  }
+backgroundColor: #f4f7fa
 ---
 
+# Product Documentation
 
-<style>
-/* themes/my-product-theme.css */
-section {
-  background-image: url('https://marp.app/assets/marp.svg');
-  background-size: 20%;
-  background-position: 95% 5%;
-  background-repeat: no-repeat;
-  color: #333;
-  font-family: Arial, sans-serif;
-}
-h1, h2, h3 {
-  color: #0066cc;
-}
-</style>
-
-# Introduction to Our Product
-
-This presentation provides an overview of our product's key features and how to use them effectively.
+- Maintainable in version control
+- Convertible to PDF, HTML, and PPTX
+- Author: Technical Writer
+- Contact: 23f3004490@ds.study.iitm.ac.in
 
 ---
 
-# Key Features
+# Common Issues
 
-- **Feature A**: A brief description.
-- **Feature B**: Another key feature.
-- **Feature C**: A third important feature.
+- <span class="important">Images Not Loading</span>
+  - Use relative paths
+  - `--allow-local-files` for PDF export
+- Font Problems
+  - Include web fonts
+  - Test custom fonts in PDF
+- Build Errors
+  - Check Node.js version
+  - Verify dependencies
+  - Use `--verbose` flag
+
+---
+
+# Keyboard Shortcuts
+
+**In VS Code Marp Preview:**
+- F1 → "Marp: Toggle Preview"
+- Ctrl+Shift+V (Preview)
+- Ctrl+K V (Side Preview)
+
+**In Presentation Mode:**
+- F (Fullscreen)
+- P (Presenter View)
+- B (Blackout)
 
 ---
 
 # Algorithmic Complexity
 
-The complexity of our core algorithm can be expressed as:
+$$
+T(n) = O(n \log n)
+$$
 
-$$O(n \log n)$$
-
-This represents an efficient and scalable solution for handling large datasets.
-
----
-
-# Data Structures
-
-The system relies on various data structures, such as a balanced binary search tree, which maintains an optimal search time.
-
-Let's consider the height of such a tree, $h$, which is related to the number of nodes, $N$, by the equation:
-
-$$h = O(\log N)$$
+Where:
+- \( T(n) \) is the runtime complexity
+- \( n \) is input size
 
 ---
 
-![bg](assets/product-bg.png)
+# Styling and Assets
 
+- Optimize images before including
+- Use consistent slide layout and branding
 
 ---
 
-# Contact
+# Background Slide
 
-For further assistance, please contact our support team or use the provided email address in the footer.
+![bg right 70%](assets/product-bg.png)
+
+# Welcome to our Product!
+
+Enjoy minimal, responsive documentation.
+
+---
+
+# Thank You
+
+Contact: 23f3004490@ds.study.iitm.ac.in
+
+---
+
+<!-- _footer: 23f3004490@ds.study.iitm.ac.in _paginate: true -->
