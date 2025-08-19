@@ -10,10 +10,6 @@ footer: '23f3004490@ds.study.iitm.ac.in'
 <style>
 /* themes/my-product-theme.css */
 section {
-  background-image: url('https://marp.app/assets/marp.svg');
-  background-size: 20%;
-  background-position: 95% 5%;
-  background-repeat: no-repeat;
   color: #333;
   font-family: Arial, sans-serif;
 }
