@@ -2,105 +2,100 @@
 marp: true
 theme: custom
 paginate: true
-_paginate: false
-class: lead
+style: |
+  section {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  h1 {
+    color: #005f99;
+    font-size: 2.2em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+backgroundColor: #fdfdfd
 ---
 
-<!-- theme: custom -->
-<style>
-section {
-  font-family: "Segoe UI", sans-serif;
-}
-h1 {
-  color: #0a84ff;
-  text-align: center;
-}
-h2 {
-  color: #222;
-}
-footer {
-  font-size: 0.7em;
-  color: #555;
-  text-align: center;
-}
-</style>
-
-# 📘 Product Documentation Presentation  
-**Technical Writer — Software Co.**
+# Product Documentation Overview  
+**Author:** Sadia  
+**Email:** 23f3004490@ds.study.iitm.ac.in
 
 ---
 
-# 📧 Contact  
-For questions or feedback:  
-**23f3004490@ds.study.iitm.ac.in**
+## 📦 Goals of This Presentation
+
+- Maintainable in version control  
+- Convertible to PDF, HTML, and slides  
+- Minimal, focused content  
+- Custom styling and themes  
+- Speaker notes and math support
 
 ---
 
-# 🎯 Goals  
-- Maintainable in **version control**  
-- Convertible to multiple formats (**PDF, HTML**)  
-- Clean, consistent design  
-
----
-
-# 🖼 Background Example
-![bg](./assets/background.jpg)
-
-## With a background image  
-Text overlays cleanly when background contrast is considered.
-
----
-
-# ⚡ Common Issues  
-
-**Images Not Loading**  
-- Use relative paths  
-- Add `--allow-local-files` for local export  
-
-**Font Problems**  
-- Embed web fonts in custom theme  
-
-**Build Errors**  
-- Check Node.js version  
-- Install dependencies  
-- Use `--verbose`  
-
----
-
-# ⌨ Keyboard Shortcuts  
-
-**VS Code (Marp Preview):**  
-- `F1` → "Marp: Toggle Preview"  
-- `Ctrl+Shift+V` → Preview  
-- `Ctrl+K V` → Side Preview  
-
-**Presentation Mode:**  
-- `F` → Fullscreen  
-- `P` → Presenter View  
-- `B` → Blackout  
-
----
-
-# 📐 Algorithmic Complexity  
-
-Mathematical Example:
+## 🧠 Algorithmic Complexity
 
 $$
 T(n) = O(n \log n)
 $$
 
-Sorting algorithms like **Merge Sort** have this time complexity.
+This represents the time complexity of our core sorting algorithm.  
+It balances performance and scalability across datasets.
 
 ---
 
-# ✅ Summary  
+## 🖼️ Background Image Example
 
-- Slides are **minimal & consistent**  
+![bg](./assets/architecture.png)
+
+### System Architecture Overview
+
+**Speaker Notes:**  
+This diagram shows the modular breakdown of our API and data pipeline.  
+Each component is Dockerized and independently testable.
+
+---
+
+## 🛠️ Common Issues & Fixes
+
+### Images Not Loading
+- Use relative paths (`./assets/image.png`)
+- Add `--allow-local-files` for PDF export
+
+### Font Problems
+- Include web fonts in theme CSS
+- Test PDF export compatibility
+
+### Build Errors
+- Check Node.js version
+- Run with `--verbose` for debugging
+
+---
+
+## 🎯 Keyboard Shortcuts
+
+### VS Code Marp Preview
+- `F1` → "Marp: Toggle Preview"
+- `Ctrl+Shift+V` → Preview
+- `Ctrl+K V` → Side Preview
+
+### Presentation Mode
+- `F` → Fullscreen  
+- `P` → Presenter View  
+- `B` → Blackout
+
+---
+
+## ✅ Final Notes
+
+- All assets optimized and version-controlled  
 - Custom theme applied  
-- Works with **PDF/HTML exports**  
-- Math + background + page numbers  
+- Math rendering verified  
+- Speaker notes included  
+- Ready for export to PDF or HTML
 
 ---
 
-# 🙌 Thank You!  
-📧 **23f3004490@ds.study.iitm.ac.in**
+# Thank You!  
+📧 23f3004490@ds.study.iitm.ac.in  
+🧠 Built with Marp + Markdown  
