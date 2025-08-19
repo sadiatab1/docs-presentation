@@ -3,7 +3,7 @@ marp: true
 theme: my-product-theme
 paginate: true
 title: Product Documentation Presentation
-author: [Your Name]
+author: [Sadia]
 footer: '23f3004490@ds.study.iitm.ac.in'
 ---
 
